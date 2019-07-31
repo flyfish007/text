@@ -1,0 +1,38 @@
+php学习笔记
+1、作用域的问题
+gloable  ,  static  
+
+2、日期类型
+
+1、字符串
+连接两个字符串用“.”,如：$txt1 . "" .$txt2
+计算字符串长度 strlen($txt1);
+使用 mb_strlen 设置指定编码输出中文字符个数：
+strpos() 函数用于在字符串内查找一个字符或一段指定的文本。
+
+2、关联数组的便利
+$age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43");
+ 
+foreach($age as $x=>$x_value)
+{
+    echo "Key=" . $x . ", Value=" . $x_value;
+    echo "<br>";
+}
+
+
+
+常量用define
+变量必须以$开头
+
+
+
+=====启动=====
+mac 下 配置php环境
+https://github.com/limingxinleo/note/blob/master/development/mnmp.md
+
+sudo nginx
+php-fpm
+
+vim /usr/local/etc/nginx/servers/demo.conf 
+:wq  退出
+

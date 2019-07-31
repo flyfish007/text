@@ -1,0 +1,73 @@
+
+http://idea.imsxm.com/
+
+
+=====页面方式====
+ <router-link :to="{path:'contractView',query: {'contractNo':item.contractNo}}">
+                      <a class="edit">编辑</a>
+                  </router-link>
+
+ 
+ ====js方式=====                 
+this.$router.push({
+            path: "checkTicket",
+            query: {'activityId':activityId }
+          });
+
+
+
+本地提交代码git:
+git add .
+git commit -a -m "test"
+git push
+
+
+
+git fetch origin
+git checkout test
+git pull
+
+
+sudo rm -rf node-modules
+rm -rf vue-cli
+sudo chmod -R 777 node_modules 
+
+npm install element-ui@2.0.2 --save-dev  
+import 'element-ui/lib/theme-chalk/index.css'
+
+
+
+
+git清楚缓存
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
+
+
+
+http://localhost:8080/billList
+https://ka.emmars.cn/billList
+
+ka1.2  本地与qa,pre等环境切换，本地需要修改的地方如下：
+1、host
+	#127.0.0.1       ka.emmars.cn
+2、/usr/local/etc/nginx/servers/demo.conf
+#location / {
+     #   rewrite "^/(.*)$" http://localhost:8080/$1 last;
+     #   #proxy_pass http://localhost:8080;
+    #}
+
+3、sudo nginx -s reload
+
+
+
+上海挚想科技有限公司  91310115MA1K3PN754
+2018-7-1   2020-10-31
+84
+
+序号  起始年月* 终止年月
+(不填表示至今)  在何地区、何单位、何部门* 任何职务*
+8 
+2016-08
+2017-10
+上海德必创新科技发展有限公司
